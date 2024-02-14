@@ -1,0 +1,76 @@
+body{
+    max-width: 1200px;
+    background-image: url(weather.jpg);
+    overflow: hidden;
+}
+p {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.main_container {
+    position: relative;
+    text-align: center;
+    width: 34%;
+    height: 625px;
+    background-color: rgb(180, 235, 235);
+    border-radius: 30px;
+    background-position: center;
+    background-size: 100% 100%;
+    top: 98px;
+    left: 530px;
+}
+.degree{
+    position: relative;
+    top: 50px;
+}
+.sub_container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+    margin: 5px;
+    padding: 44px;
+}
+/* input.search-box {
+    border: none;
+    height: 30px;
+    border-radius: 10px;
+    padding: 9px;
+} */
+/* .search-box::placeholder{
+    text-align: center;
+} */
+.search-box{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#btn {
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: rgb(148, 107, 230);
+}
+
+/* ----------------------classlist---------------------
+
+.sunimg{
+    background-image: url(sun.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.moonimg{
+    background-image: url(moon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+/* .fullmoonimg{
+    background-image: url(full\ moon.webp);
+    
+}  */
